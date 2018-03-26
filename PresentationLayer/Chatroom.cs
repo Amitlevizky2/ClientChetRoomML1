@@ -8,7 +8,7 @@ namespace LogicLayer
         public User loginUser = null;
         private List<User> Users = new List<User>();
         private List<Message> Messages = new List<Message>();
-        private String url = "http://ise172.ise.bgu.ac.il";
+        public static String url = "http://ise172.ise.bgu.ac.il";
 
         public Chatroom()
         {
