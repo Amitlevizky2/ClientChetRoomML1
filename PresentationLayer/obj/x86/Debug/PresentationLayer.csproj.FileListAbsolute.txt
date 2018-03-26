@@ -1,0 +1,5 @@
+/Users/avivlevitzky/Projects/PresentationLayer/PresentationLayer/bin/Debug/PresentationLayer.exe
+/Users/avivlevitzky/Projects/PresentationLayer/PresentationLayer/bin/Debug/PresentationLayer.pdb
+/Users/avivlevitzky/Projects/PresentationLayer/PresentationLayer/obj/x86/Debug/PresentationLayer.csproj.CoreCompileInputs.cache
+/Users/avivlevitzky/Projects/PresentationLayer/PresentationLayer/obj/x86/Debug/PresentationLayer.exe
+/Users/avivlevitzky/Projects/PresentationLayer/PresentationLayer/obj/x86/Debug/PresentationLayer.pdb
