@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{6A460F87-CE1E-4B6C-87F6-F78D6CE997BA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="PresentationLayer/Chatroom.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PresentationLayer/User.cs">
     <Files>
-      <File FileName="PresentationLayer/Chatroom.cs" Line="25" Column="21" />
+      <File FileName="PresentationLayer/User.cs" Line="4" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
