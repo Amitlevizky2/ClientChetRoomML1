@@ -1,40 +1,40 @@
-﻿using System;
-using LogicLayer;
+﻿
+using System;
+using System.Collections.Generic;
+using MileStoneClient.CommunicationLayer;
 
-namespace PresentationLayer
+namespace MileStoneClient
 {
-    class Introduction
+    class Program
     {
-        public static void Main(string[] args)
+
+        static void Main(string[] args)
         {
-            Console.WriteLine("Hello, welcome to the chet");
+            string gourpID = "2";
+            string nickName = "Ben";
+            string messageContent = "BenRh safd";
+            string url = "http://ise172.ise.bgu.ac.il";  // url: ip + port
 
-            Console.WriteLine("Please choose one of the options below:");
-            Console.WriteLine("a. Registration");
-            Console.WriteLine("b. Login/Logout");
-            Console.WriteLine("c. Retrive last 10 messages from server");
-            Console.WriteLine("d. Display last 20 retrived messages sorted by the message timestamp");
-            Console.WriteLine("f. Write a new message");
-            Console.WriteLine("g. Exit");
-            String userChoice = Console.ReadLine();
 
-            switch(userChoice)
+            IMessage msg = Communication.Instance.Send(url, gourpID, nickName, messageContent);
+
+            // return with updated time and guid
+            Console.WriteLine("MessageTime:{0} , Guid:{1}\n", msg.Date.ToString(), msg.Id);
+
+            Console.WriteLine(msg + "\n");
+            //Cannot create instance of CommunicationMessage
+            //IMessage msg2 = new CommunicationMessage(); Error
+
+
+
+            List<IMessage> msgList = Communication.Instance.GetTenMessages(url);
+            Console.WriteLine("Reuest 10 Last Messages:");
+            foreach (IMessage msgItem in msgList)
             {
-                case "a":
-                    Console.WriteLine("No problam, please fill up the next identification details: ");
-                    Console.WriteLine("Nickname: ");
-                    String nickname = Console.ReadLine();
-                    Console.WriteLine("group ID: ");
-                    int groupID = Convert.ToInt32(Console.ReadLine());
-                    break;
-                
-                case "b":
-                    
-                        Console.WriteLine("That's it for now");
-
-                    break;
-                    
+                Console.WriteLine(msgItem);
+                Console.WriteLine("");
             }
+            Console.ReadKey();
         }
     }
 }
