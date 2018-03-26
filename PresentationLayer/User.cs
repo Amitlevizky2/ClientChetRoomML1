@@ -1,5 +1,6 @@
 ﻿using System;
-namespace LogicLayer;
+using Newtonsoft;
+namespace LogicLayer
 {
     public class User
     {
@@ -12,6 +13,11 @@ namespace LogicLayer;
         {
             this.nickname = nickname;
             this.groupID = groupID;
+
+        }
+        public void send(String msg)
+        {
+            
         }
 
         public void logout()

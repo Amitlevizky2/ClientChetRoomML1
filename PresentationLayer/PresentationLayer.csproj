@@ -40,6 +40,8 @@
     <Compile Include="User.cs" />
     <Compile Include="Chatroom.cs" />
     <Compile Include="Message.cs" />
+    <Compile Include="iMessage.cs" />
+    <Compile Include="Communication.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
