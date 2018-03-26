@@ -1,5 +1,5 @@
 ﻿using System;
-namespace LogicLayer;
+namespace LogicLayer
 {
     public class Message
     {

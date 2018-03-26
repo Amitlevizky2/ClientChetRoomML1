@@ -1,0 +1,3 @@
+/Users/avivlevitzky/Documents/GitHub/ClientChetRoomML1/PresentationLayer/obj/x86/Debug/Milestone1.csproj.CoreCompileInputs.cache
+/Users/avivlevitzky/Documents/GitHub/ClientChetRoomML1/PresentationLayer/obj/x86/Debug/PresentationLayer.exe
+/Users/avivlevitzky/Documents/GitHub/ClientChetRoomML1/PresentationLayer/obj/x86/Debug/PresentationLayer.pdb
