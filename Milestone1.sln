@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLayer", "PresentationLayer\PresentationLayer.csproj", "{6A460F87-CE1E-4B6C-87F6-F78D6CE997BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Milestone1", "PresentationLayer\Milestone1.csproj", "{6A460F87-CE1E-4B6C-87F6-F78D6CE997BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
