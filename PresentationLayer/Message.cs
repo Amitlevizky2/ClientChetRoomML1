@@ -30,6 +30,7 @@ namespace LogicLayer
         DateTime dt = DateTime.Parse("6/22/2009 07:00:00 AM");
         dt.ToString(" 	dd/MM/yyyy h:mm tt");
         Console.WriteLine(dt);
+            Console.ReadLine();
 
         return dt;
     }
