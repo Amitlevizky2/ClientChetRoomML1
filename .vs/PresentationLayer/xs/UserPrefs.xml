@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{6A460F87-CE1E-4B6C-87F6-F78D6CE997BA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PresentationLayer/Chatroom.cs">
+    <Files>
+      <File FileName="PresentationLayer/Chatroom.cs" Line="25" Column="21" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.PresentationLayer PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

@@ -22,7 +22,7 @@ namespace LogicLayer
 
         public void checkValidity(String nickname, int GroupID)
         {
-            
+            Console.WriteLine("sqdqdq"); 
         }
 
         public void registration (String nickname, int GroupID)
